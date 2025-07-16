@@ -35,16 +35,6 @@ EXTRA_PLUGINS = getenv(
     True,
 )
 
-# Fill True if you want to load extra plugins
-# Fill here the external plugins repo where plugins that you want to load
-EXTRA_PLUGINS_REPO = getenv(
-    "EXTRA_PLUGINS_REPO",
-    "https://github.com/TheChampu/Extra-Plugin",
-)
-
-# Your folder name in your extra plugins repo where all plugins stored
-EXTRA_PLUGINS_FOLDER = getenv("EXTRA_PLUGINS_FOLDER", "plugins")
-
 LOGGERS = "\x54\x68\x65\x54\x65\x6C\x65\x67\x72\x61\x6D\x52\x6F\x62\x6F\x74"  # connect errors api key "Dont change it"
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
 SONG_DOWNLOAD_DURATION = int(
